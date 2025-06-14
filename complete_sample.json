@@ -1,0 +1,652 @@
+{
+  "extraction_time": "2025-06-14T12:05:40.054455",
+  "hostname": "fedora",
+  "categories": {
+    "systemd": [
+      {
+        "timestamp": "2025-06-14T12:05:39",
+        "hostname": "fedora",
+        "service": "audit",
+        "pid": null,
+        "message": "BPF prog-id=118 op=LOAD",
+        "severity": "UNKNOWN",
+        "source": "journalctl",
+        "category": "systemd"
+      },
+      {
+        "timestamp": "2025-06-14T12:05:39",
+        "hostname": "fedora",
+        "service": "audit",
+        "pid": null,
+        "message": "BPF prog-id=119 op=LOAD",
+        "severity": "UNKNOWN",
+        "source": "journalctl",
+        "category": "systemd"
+      },
+      {
+        "timestamp": "2025-06-14T12:05:39",
+        "hostname": "fedora",
+        "service": "audit",
+        "pid": null,
+        "message": "BPF prog-id=119 op=UNLOAD",
+        "severity": "UNKNOWN",
+        "source": "journalctl",
+        "category": "systemd"
+      },
+      {
+        "timestamp": "2025-06-14T12:05:39",
+        "hostname": "fedora",
+        "service": "audit",
+        "pid": null,
+        "message": "BPF prog-id=120 op=LOAD",
+        "severity": "UNKNOWN",
+        "source": "journalctl",
+        "category": "systemd"
+      },
+      {
+        "timestamp": "2025-06-14T12:05:39",
+        "hostname": "fedora",
+        "service": "audit",
+        "pid": null,
+        "message": "BPF prog-id=118 op=UNLOAD",
+        "severity": "UNKNOWN",
+        "source": "journalctl",
+        "category": "systemd"
+      },
+      {
+        "timestamp": "2025-06-14T12:05:39",
+        "hostname": "fedora",
+        "service": "audit",
+        "pid": null,
+        "message": "BPF prog-id=120 op=UNLOAD",
+        "severity": "UNKNOWN",
+        "source": "journalctl",
+        "category": "systemd"
+      },
+      {
+        "timestamp": "2025-06-14T12:05:39",
+        "hostname": "fedora",
+        "service": "uresourced",
+        "pid": 1307,
+        "message": "Setting resources on user-0.slice (MemoryMin: 0, MemoryLow: 0, CPUWeight: 100, IOWeight: 100)",
+        "severity": "UNKNOWN",
+        "source": "journalctl",
+        "category": "systemd"
+      },
+      {
+        "timestamp": "2025-06-14T12:05:39",
+        "hostname": "fedora",
+        "service": "uresourced",
+        "pid": 1307,
+        "message": "Setting resources on user@0.service (MemoryMin: 0, MemoryLow: 0, CPUWeight: 100, IOWeight: 100)",
+        "severity": "UNKNOWN",
+        "source": "journalctl",
+        "category": "systemd"
+      },
+      {
+        "timestamp": "2025-06-14T12:05:39",
+        "hostname": "fedora",
+        "service": "systemd",
+        "pid": 4742,
+        "message": "Queued start job for default target default.target.",
+        "severity": "UNKNOWN",
+        "source": "journalctl",
+        "category": "systemd"
+      },
+      {
+        "timestamp": "2025-06-14T12:05:39",
+        "hostname": "fedora",
+        "service": "systemd",
+        "pid": 4742,
+        "message": "Created slice app.slice - User Application Slice.",
+        "severity": "UNKNOWN",
+        "source": "journalctl",
+        "category": "systemd"
+      },
+      {
+        "timestamp": "2025-06-14T12:05:39",
+        "hostname": "fedora",
+        "service": "systemd",
+        "pid": 4742,
+        "message": "grub-boot-success.timer - Mark boot as successful after the user session has run 2 minutes was skipped because of an unmet condition check (ConditionUser=!@system).",
+        "severity": "UNKNOWN",
+        "source": "journalctl",
+        "category": "systemd"
+      },
+      {
+        "timestamp": "2025-06-14T12:05:39",
+        "hostname": "fedora",
+        "service": "systemd",
+        "pid": 4742,
+        "message": "Started systemd-tmpfiles-clean.timer - Daily Cleanup of User's Temporary Directories.",
+        "severity": "UNKNOWN",
+        "source": "journalctl",
+        "category": "systemd"
+      },
+      {
+        "timestamp": "2025-06-14T12:05:39",
+        "hostname": "fedora",
+        "service": "systemd",
+        "pid": 4742,
+        "message": "Reached target paths.target - Paths.",
+        "severity": "UNKNOWN",
+        "source": "journalctl",
+        "category": "systemd"
+      },
+      {
+        "timestamp": "2025-06-14T12:05:39",
+        "hostname": "fedora",
+        "service": "systemd",
+        "pid": 4742,
+        "message": "Reached target timers.target - Timers.",
+        "severity": "UNKNOWN",
+        "source": "journalctl",
+        "category": "systemd"
+      },
+      {
+        "timestamp": "2025-06-14T12:05:39",
+        "hostname": "fedora",
+        "service": "systemd",
+        "pid": 4742,
+        "message": "Starting dbus.socket - D-Bus User Message Bus Socket...",
+        "severity": "UNKNOWN",
+        "source": "journalctl",
+        "category": "systemd"
+      },
+      {
+        "timestamp": "2025-06-14T12:05:39",
+        "hostname": "fedora",
+        "service": "systemd",
+        "pid": 4742,
+        "message": "pipewire-pulse.socket - PipeWire PulseAudio was skipped because of an unmet condition check (ConditionUser=!root).",
+        "severity": "UNKNOWN",
+        "source": "journalctl",
+        "category": "systemd"
+      },
+      {
+        "timestamp": "2025-06-14T12:05:39",
+        "hostname": "fedora",
+        "service": "systemd",
+        "pid": 4742,
+        "message": "pipewire.socket - PipeWire Multimedia System Sockets was skipped because of an unmet condition check (ConditionUser=!root).",
+        "severity": "UNKNOWN",
+        "source": "journalctl",
+        "category": "systemd"
+      },
+      {
+        "timestamp": "2025-06-14T12:05:39",
+        "hostname": "fedora",
+        "service": "systemd",
+        "pid": 4742,
+        "message": "Starting systemd-tmpfiles-setup.service - Create User Files and Directories...",
+        "severity": "UNKNOWN",
+        "source": "journalctl",
+        "category": "systemd"
+      },
+      {
+        "timestamp": "2025-06-14T12:05:39",
+        "hostname": "fedora",
+        "service": "systemd",
+        "pid": 4742,
+        "message": "Finished systemd-tmpfiles-setup.service - Create User Files and Directories.",
+        "severity": "UNKNOWN",
+        "source": "journalctl",
+        "category": "systemd"
+      },
+      {
+        "timestamp": "2025-06-14T12:05:39",
+        "hostname": "fedora",
+        "service": "systemd",
+        "pid": 4742,
+        "message": "Listening on dbus.socket - D-Bus User Message Bus Socket.",
+        "severity": "UNKNOWN",
+        "source": "journalctl",
+        "category": "systemd"
+      },
+      {
+        "timestamp": "2025-06-14T12:05:39",
+        "hostname": "fedora",
+        "service": "systemd",
+        "pid": 4742,
+        "message": "Reached target sockets.target - Sockets.",
+        "severity": "UNKNOWN",
+        "source": "journalctl",
+        "category": "systemd"
+      },
+      {
+        "timestamp": "2025-06-14T12:05:39",
+        "hostname": "fedora",
+        "service": "systemd",
+        "pid": 4742,
+        "message": "Reached target basic.target - Basic System.",
+        "severity": "UNKNOWN",
+        "source": "journalctl",
+        "category": "systemd"
+      },
+      {
+        "timestamp": "2025-06-14T12:05:39",
+        "hostname": "fedora",
+        "service": "systemd",
+        "pid": 4742,
+        "message": "gnome-initial-setup-copy-worker.service - GNOME Initial Setup Copy Worker was skipped because of an unmet condition check (ConditionUser=!@system).",
+        "severity": "UNKNOWN",
+        "source": "journalctl",
+        "category": "systemd"
+      },
+      {
+        "timestamp": "2025-06-14T12:05:39",
+        "hostname": "fedora",
+        "service": "systemd",
+        "pid": 4742,
+        "message": "Reached target default.target - Main User Target.",
+        "severity": "UNKNOWN",
+        "source": "journalctl",
+        "category": "systemd"
+      },
+      {
+        "timestamp": "2025-06-14T12:05:39",
+        "hostname": "fedora",
+        "service": "systemd",
+        "pid": 4742,
+        "message": "Startup finished in 257ms.",
+        "severity": "UNKNOWN",
+        "source": "journalctl",
+        "category": "systemd"
+      },
+      {
+        "timestamp": "2025-06-14T12:05:39",
+        "hostname": "fedora",
+        "service": "systemd",
+        "pid": 1,
+        "message": "Started user@0.service - User Manager for UID 0.",
+        "severity": "UNKNOWN",
+        "source": "journalctl",
+        "category": "systemd"
+      },
+      {
+        "timestamp": "2025-06-14T12:05:39",
+        "hostname": "fedora",
+        "service": "audit",
+        "pid": 1,
+        "message": "SERVICE_START pid=1 uid=0 auid=4294967295 ses=4294967295 subj=system_u:system_r:init_t:s0 msg='unit=user@0 comm=\"systemd\" exe=\"/usr/lib/systemd/systemd\" hostname=? addr=? terminal=? res=success'",
+        "severity": "UNKNOWN",
+        "source": "journalctl",
+        "category": "systemd"
+      },
+      {
+        "timestamp": "2025-06-14T12:05:39",
+        "hostname": "fedora",
+        "service": "systemd",
+        "pid": 1,
+        "message": "Started session-c5.scope - Session c5 of User root.",
+        "severity": "UNKNOWN",
+        "source": "journalctl",
+        "category": "systemd"
+      },
+      {
+        "timestamp": "2025-06-14T12:05:39",
+        "hostname": "fedora",
+        "service": "sudo",
+        "pid": 4738,
+        "message": "pam_unix(sudo:session): session opened for user root(uid=0) by ruhika12(uid=1000)",
+        "severity": "UNKNOWN",
+        "source": "journalctl",
+        "category": "systemd"
+      },
+      {
+        "timestamp": "2025-06-14T12:05:39",
+        "hostname": "fedora",
+        "service": "audit",
+        "pid": 4738,
+        "message": "USER_START pid=4738 uid=1000 auid=1000 ses=2 subj=unconfined_u:unconfined_r:unconfined_t:s0-s0:c0.c1023 msg='op=PAM:session_open grantors=pam_keyinit,pam_limits,pam_keyinit,pam_limits,pam_systemd,pam_unix acct=\"root\" exe=\"/usr/bin/sudo\" hostname=? addr=? terminal=/dev/pts/0 res=success'",
+        "severity": "UNKNOWN",
+        "source": "journalctl",
+        "category": "systemd"
+      }
+    ],
+    "kernel": [
+      {
+        "timestamp": "2025-06-14T11:35:29",
+        "hostname": "fedora",
+        "service": "kernel",
+        "pid": null,
+        "message": "snd_hda_codec_realtek ehdaudio0D0: autoconfig for ALC245: line_outs=1 (0x14/0x0/0x0/0x0/0x0) type:speaker",
+        "severity": "UNKNOWN",
+        "source": "journalctl",
+        "category": "kernel"
+      },
+      {
+        "timestamp": "2025-06-14T11:35:29",
+        "hostname": "fedora",
+        "service": "kernel",
+        "pid": null,
+        "message": "snd_hda_codec_realtek ehdaudio0D0:    speaker_outs=0 (0x0/0x0/0x0/0x0/0x0)",
+        "severity": "UNKNOWN",
+        "source": "journalctl",
+        "category": "kernel"
+      },
+      {
+        "timestamp": "2025-06-14T11:35:29",
+        "hostname": "fedora",
+        "service": "kernel",
+        "pid": null,
+        "message": "snd_hda_codec_realtek ehdaudio0D0:    hp_outs=1 (0x21/0x0/0x0/0x0/0x0)",
+        "severity": "UNKNOWN",
+        "source": "journalctl",
+        "category": "kernel"
+      },
+      {
+        "timestamp": "2025-06-14T11:35:29",
+        "hostname": "fedora",
+        "service": "kernel",
+        "pid": null,
+        "message": "snd_hda_codec_realtek ehdaudio0D0:    mono: mono_out=0x0",
+        "severity": "UNKNOWN",
+        "source": "journalctl",
+        "category": "kernel"
+      },
+      {
+        "timestamp": "2025-06-14T11:35:29",
+        "hostname": "fedora",
+        "service": "kernel",
+        "pid": null,
+        "message": "snd_hda_codec_realtek ehdaudio0D0:    inputs:",
+        "severity": "UNKNOWN",
+        "source": "journalctl",
+        "category": "kernel"
+      },
+      {
+        "timestamp": "2025-06-14T11:35:29",
+        "hostname": "fedora",
+        "service": "kernel",
+        "pid": null,
+        "message": "snd_hda_codec_realtek ehdaudio0D0:      Mic=0x19",
+        "severity": "UNKNOWN",
+        "source": "journalctl",
+        "category": "kernel"
+      },
+      {
+        "timestamp": "2025-06-14T11:35:29",
+        "hostname": "fedora",
+        "service": "kernel",
+        "pid": null,
+        "message": "skl_hda_dsp_generic skl_hda_dsp_generic: hda_dsp_hdmi_build_controls: no PCM in topology for HDMI converter 3",
+        "severity": "UNKNOWN",
+        "source": "journalctl",
+        "category": "kernel"
+      },
+      {
+        "timestamp": "2025-06-14T11:35:30",
+        "hostname": "fedora",
+        "service": "kernel",
+        "pid": null,
+        "message": "input: sof-hda-dsp Mic as /devices/pci0000:00/0000:00:1f.3/skl_hda_dsp_generic/sound/card0/input23",
+        "severity": "UNKNOWN",
+        "source": "journalctl",
+        "category": "kernel"
+      },
+      {
+        "timestamp": "2025-06-14T11:35:30",
+        "hostname": "fedora",
+        "service": "kernel",
+        "pid": null,
+        "message": "input: sof-hda-dsp Headphone as /devices/pci0000:00/0000:00:1f.3/skl_hda_dsp_generic/sound/card0/input24",
+        "severity": "UNKNOWN",
+        "source": "journalctl",
+        "category": "kernel"
+      },
+      {
+        "timestamp": "2025-06-14T11:35:30",
+        "hostname": "fedora",
+        "service": "kernel",
+        "pid": null,
+        "message": "input: sof-hda-dsp HDMI/DP,pcm=3 as /devices/pci0000:00/0000:00:1f.3/skl_hda_dsp_generic/sound/card0/input25",
+        "severity": "UNKNOWN",
+        "source": "journalctl",
+        "category": "kernel"
+      },
+      {
+        "timestamp": "2025-06-14T11:35:30",
+        "hostname": "fedora",
+        "service": "kernel",
+        "pid": null,
+        "message": "input: sof-hda-dsp HDMI/DP,pcm=4 as /devices/pci0000:00/0000:00:1f.3/skl_hda_dsp_generic/sound/card0/input26",
+        "severity": "UNKNOWN",
+        "source": "journalctl",
+        "category": "kernel"
+      },
+      {
+        "timestamp": "2025-06-14T11:35:30",
+        "hostname": "fedora",
+        "service": "kernel",
+        "pid": null,
+        "message": "input: sof-hda-dsp HDMI/DP,pcm=5 as /devices/pci0000:00/0000:00:1f.3/skl_hda_dsp_generic/sound/card0/input27",
+        "severity": "UNKNOWN",
+        "source": "journalctl",
+        "category": "kernel"
+      },
+      {
+        "timestamp": "2025-06-14T11:35:30",
+        "hostname": "fedora",
+        "service": "kernel",
+        "pid": null,
+        "message": "RPC: Registered named UNIX socket transport module.",
+        "severity": "UNKNOWN",
+        "source": "journalctl",
+        "category": "kernel"
+      },
+      {
+        "timestamp": "2025-06-14T11:35:30",
+        "hostname": "fedora",
+        "service": "kernel",
+        "pid": null,
+        "message": "RPC: Registered udp transport module.",
+        "severity": "UNKNOWN",
+        "source": "journalctl",
+        "category": "kernel"
+      },
+      {
+        "timestamp": "2025-06-14T11:35:30",
+        "hostname": "fedora",
+        "service": "kernel",
+        "pid": null,
+        "message": "RPC: Registered tcp transport module.",
+        "severity": "UNKNOWN",
+        "source": "journalctl",
+        "category": "kernel"
+      },
+      {
+        "timestamp": "2025-06-14T11:35:30",
+        "hostname": "fedora",
+        "service": "kernel",
+        "pid": null,
+        "message": "RPC: Registered tcp-with-tls transport module.",
+        "severity": "UNKNOWN",
+        "source": "journalctl",
+        "category": "kernel"
+      },
+      {
+        "timestamp": "2025-06-14T11:35:30",
+        "hostname": "fedora",
+        "service": "kernel",
+        "pid": null,
+        "message": "RPC: Registered tcp NFSv4.1 backchannel transport module.",
+        "severity": "UNKNOWN",
+        "source": "journalctl",
+        "category": "kernel"
+      },
+      {
+        "timestamp": "2025-06-14T11:35:30",
+        "hostname": "fedora",
+        "service": "kernel",
+        "pid": null,
+        "message": "platform_profile: Failed to get profile for handler hp-wmi",
+        "severity": "ERROR",
+        "source": "journalctl",
+        "category": "kernel"
+      },
+      {
+        "timestamp": "2025-06-14T11:35:33",
+        "hostname": "fedora",
+        "service": "kernel",
+        "pid": null,
+        "message": "wlo1: authenticate with 98:9d:b2:64:1a:07 (local address=2a:78:d5:51:91:5e)",
+        "severity": "UNKNOWN",
+        "source": "journalctl",
+        "category": "kernel"
+      },
+      {
+        "timestamp": "2025-06-14T11:35:33",
+        "hostname": "fedora",
+        "service": "kernel",
+        "pid": null,
+        "message": "wlo1: send auth to 98:9d:b2:64:1a:07 (try 1/3)",
+        "severity": "UNKNOWN",
+        "source": "journalctl",
+        "category": "kernel"
+      },
+      {
+        "timestamp": "2025-06-14T11:35:33",
+        "hostname": "fedora",
+        "service": "kernel",
+        "pid": null,
+        "message": "wlo1: authenticated",
+        "severity": "UNKNOWN",
+        "source": "journalctl",
+        "category": "kernel"
+      },
+      {
+        "timestamp": "2025-06-14T11:35:33",
+        "hostname": "fedora",
+        "service": "kernel",
+        "pid": null,
+        "message": "wlo1: associate with 98:9d:b2:64:1a:07 (try 1/3)",
+        "severity": "UNKNOWN",
+        "source": "journalctl",
+        "category": "kernel"
+      },
+      {
+        "timestamp": "2025-06-14T11:35:33",
+        "hostname": "fedora",
+        "service": "kernel",
+        "pid": null,
+        "message": "wlo1: RX AssocResp from 98:9d:b2:64:1a:07 (capab=0x411 status=0 aid=1)",
+        "severity": "UNKNOWN",
+        "source": "journalctl",
+        "category": "kernel"
+      },
+      {
+        "timestamp": "2025-06-14T11:35:33",
+        "hostname": "fedora",
+        "service": "kernel",
+        "pid": null,
+        "message": "wlo1: associated",
+        "severity": "UNKNOWN",
+        "source": "journalctl",
+        "category": "kernel"
+      },
+      {
+        "timestamp": "2025-06-14T11:35:36",
+        "hostname": "fedora",
+        "service": "kernel",
+        "pid": null,
+        "message": "Bluetooth: RFCOMM TTY layer initialized",
+        "severity": "UNKNOWN",
+        "source": "journalctl",
+        "category": "kernel"
+      },
+      {
+        "timestamp": "2025-06-14T11:35:36",
+        "hostname": "fedora",
+        "service": "kernel",
+        "pid": null,
+        "message": "Bluetooth: RFCOMM socket layer initialized",
+        "severity": "UNKNOWN",
+        "source": "journalctl",
+        "category": "kernel"
+      },
+      {
+        "timestamp": "2025-06-14T11:35:36",
+        "hostname": "fedora",
+        "service": "kernel",
+        "pid": null,
+        "message": "Bluetooth: RFCOMM ver 1.11",
+        "severity": "UNKNOWN",
+        "source": "journalctl",
+        "category": "kernel"
+      },
+      {
+        "timestamp": "2025-06-14T11:35:37",
+        "hostname": "fedora",
+        "service": "kernel",
+        "pid": null,
+        "message": "Lockdown: systemd-logind: hibernation is restricted; see man kernel_lockdown.7",
+        "severity": "UNKNOWN",
+        "source": "journalctl",
+        "category": "kernel"
+      },
+      {
+        "timestamp": "2025-06-14T11:35:37",
+        "hostname": "fedora",
+        "service": "kernel",
+        "pid": null,
+        "message": "rfkill: input handler disabled",
+        "severity": "UNKNOWN",
+        "source": "journalctl",
+        "category": "kernel"
+      },
+      {
+        "timestamp": "2025-06-14T11:47:46",
+        "hostname": "fedora",
+        "service": "kernel",
+        "pid": null,
+        "message": "evm: overlay not supported",
+        "severity": "UNKNOWN",
+        "source": "journalctl",
+        "category": "kernel"
+      }
+    ],
+    "auth": [],
+    "application": []
+  },
+  "summary": {
+    "systemd": {
+      "total_entries": 30,
+      "severity_breakdown": {
+        "UNKNOWN": 30
+      },
+      "time_range": {
+        "earliest": "2025-06-14T12:05:39",
+        "latest": "2025-06-14T12:05:39"
+      }
+    },
+    "kernel": {
+      "total_entries": 30,
+      "severity_breakdown": {
+        "UNKNOWN": 29,
+        "ERROR": 1
+      },
+      "time_range": {
+        "earliest": "2025-06-14T11:35:29",
+        "latest": "2025-06-14T11:47:46"
+      }
+    },
+    "auth": {
+      "total_entries": 0,
+      "severity_breakdown": {},
+      "time_range": {
+        "earliest": null,
+        "latest": null
+      }
+    },
+    "application": {
+      "total_entries": 0,
+      "severity_breakdown": {},
+      "time_range": {
+        "earliest": null,
+        "latest": null
+      }
+    },
+    "total_logs": 60
+  }
+}
