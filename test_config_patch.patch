@@ -1,0 +1,9 @@
+diff --git a/config.json b/config.json
+index b3e0a80..a3a9452 100644
+--- a/config.json
++++ b/config.json
+@@ -1,3 +1,4 @@
++//JSON
+ {
+   "log_type": "NetworkManager",
+   "log_duration": "1D"
