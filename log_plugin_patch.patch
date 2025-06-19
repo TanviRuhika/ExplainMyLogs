@@ -1,0 +1,59 @@
+diff --git a/config.json b/config.json
+new file mode 100644
+index 0000000..b3e0a80
+--- /dev/null
++++ b/config.json
+@@ -0,0 +1,4 @@
++{
++  "log_type": "NetworkManager",
++  "log_duration": "1D"
++}
+diff --git a/plugin/log_extractor.py b/plugin/log_extractor.py
+new file mode 100644
+index 0000000..f916998
+--- /dev/null
++++ b/plugin/log_extractor.py
+@@ -0,0 +1,43 @@
++import json
++import subprocess
++import datetime
++import sys
++
++def parse_duration(duration_str):
++    unit = duration_str[-1].lower()
++    value = int(duration_str[:-1])
++    now = datetime.datetime.now()
++    
++    if unit == 'd':
++        return (now - datetime.timedelta(days=value)).isoformat()
++    elif unit == 'h':
++        return (now - datetime.timedelta(hours=value)).isoformat()
++    elif unit == 'm':
++        return (now - datetime.timedelta(minutes=value)).isoformat()
++    else:
++        raise ValueError("Invalid duration unit. Use D (days), H (hours), or M (minutes).")
++
++def extract_logs(config_path):
++    with open(config_path) as f:
++        config = json.load(f)
++
++    log_type = config.get("log_type")
++    log_duration = config.get("log_duration")
++
++    since_time = parse_duration(log_duration)
++
++    # journalctl command
++    cmd = ["journalctl", "-u", log_type, "--since", since_time, "--output=json"]
++
++    try:
++        result = subprocess.run(cmd, capture_output=True, text=True, check=True)
++        logs = result.stdout.strip().splitlines()
++
++        log_json_list = [json.loads(log) for log in logs if log.strip()][:50]
++        print(json.dumps(log_json_list, indent=2))
++    except subprocess.CalledProcessError as e:
++        print(f"Error running journalctl: {e}", file=sys.stderr)
++
++if __name__ == "__main__":
++    extract_logs("config.json")
++
