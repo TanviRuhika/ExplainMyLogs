@@ -25,3 +25,25 @@
 2. Extend to more log categories
 3. Enhance severity detection rules
 4. Add more log sources for analysis engine
+---
+
+## Additional POC Test - Config Driven Plugin
+
+### Config Used
+
+```json
+{
+  "log_type": "NetworkManager",
+  "log_duration": "1D"
+}
+---
+
+## Additional POC Test - Config Driven Plugin
+
+### Config Used
+
+```json
+{
+  "log_type": "NetworkManager",
+  "log_duration": "1D"
+}

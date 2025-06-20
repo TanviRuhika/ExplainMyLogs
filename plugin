@@ -1,0 +1,4 @@
+#!/usr/bin/env python3
+from plugin_dir.__main__ import main
+
+main()
