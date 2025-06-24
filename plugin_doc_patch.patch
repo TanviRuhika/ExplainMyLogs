@@ -1,0 +1,9 @@
+diff --git a/doc/plugin.md b/doc/plugin.md
+index 4bde4bb..7147ee3 100644
+--- a/doc/plugin.md
++++ b/doc/plugin.md
+@@ -24,3 +24,4 @@ ExplainMyLogs/
+ ├── doc/plugin.md         # Plugin documentation (this file)
+ ├── design/design.md      # Design document from proposal
+ ├── poc_results.md        # PoC log test summary
++<!-- Patch created on June 20, 2025 -->

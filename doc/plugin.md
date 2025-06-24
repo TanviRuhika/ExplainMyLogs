@@ -24,3 +24,4 @@ ExplainMyLogs/
 ├── doc/plugin.md         # Plugin documentation (this file)
 ├── design/design.md      # Design document from proposal
 ├── poc_results.md        # PoC log test summary
+<!-- Patch created on June 20, 2025 -->
